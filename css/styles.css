@@ -47,31 +47,33 @@ body {
 }
 
 #course1 {
-  width: 40%;
-  border: 1px solid black;
+  width: 32%;
+  /*border: 1px solid black;*/
   border-radius: 5px;
   background-color: #ffffff;
   color: #3b4345;
-  margin-left: 15px;
+  margin-left: 22px;
   margin-top: 15px;
+  box-shadow: 1.5px 1.5px 1.5px #e0e0e0;
 }
 
 #course1header {
   background-color: #2c9676;
   color: white;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 20px;
   height: 60px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-
 }
 
 #course1header p {
   margin-top: 0;
   margin-bottom: 0;
   float: right;
-  padding-right: 30px;
+  padding-right: 33px;
+  padding-top: 7px;
+  font-size: 13px;
 }
 
 .courseContent {
@@ -86,30 +88,49 @@ body {
   margin-bottom: -15px;
 }
 
-.btn {
-  margin-top: 55px;
-  margin-bottom: 30px;
+.btncontainer {
+  margin-top: 45px;
+  margin-bottom: 12px;
+  height: 50px;
+    /*border: 1px solid black;*/
 }
 
 .btn1 {
   width: 60px;
   height: 35px;
-  border-radius: 40%;
+  border-radius: 100px;
   border: 2px solid #e0e0e0;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
   color: #2c9676;
   text-align: center;
   margin-right: 7px;
+
 }
 
 .btn2 {
   width: 60px;
   height: 35px;
-  border-radius: 40%;
+  border-radius: 100px;
   border: 2px solid #e0e0e0;
   padding: 7px 12px 7px 12px;
   text-decoration: none;
   color: #6a787c;
   text-align: center;
+
+}
+
+#course1header img {
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  float: left;
+  /*border: 1px solid black;*/
+  margin-top: 12px;
+}
+.btncontainer img {
+  float: right;
+
 }
